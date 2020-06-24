@@ -3,8 +3,12 @@ function helloWorld() {
     return "Hello, World!";
 }
 function sayHello(){
-    return "hello";
+    return "";
 }
-function sayHello(){
-    return "Hello, Jane!";
-}
+// function sayHello(){
+//     return "Hello, Jane!";
+// }
+// sayHello();
+// function sayHello(){
+//     return "Hello, Alex!";
+// }
