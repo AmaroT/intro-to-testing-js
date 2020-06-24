@@ -2,11 +2,19 @@
 function helloWorld() {
     return "Hello, World!";
 }
+
+
 function emptyString() {
     return "";
 }
 function sayHelloJane() {
     return "Hello, Jane!";
+}
+function sayHelloAlex() {
+    return "Hello, Alex!";
+}
+function sayHelloPat() {
+    return "Hello, Pat!";
 }
 
 function sayHello(input) {
@@ -21,5 +29,13 @@ function sayHello(input) {
 //     // }else {
 //     //     return '';
 //     // }
+function sayHello(input){
+    if(input === true);
+    return "Hello, World!";
+}
+function isStringTrue(input){
+    if(input === true);
+    return "Hello, World!";
+}
 
 

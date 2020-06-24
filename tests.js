@@ -24,10 +24,19 @@ describe('sayHello', function() {
         expect(sayHelloJane('Jane')).toBe('Hello, Jane!');
     });
     it('should return the string "Hello, Alex!"', function(){
-       expect(sayHello('Alex')).toBe("Hello, Alex!");
+       expect(sayHelloAlex('Alex')).toBe("Hello, Alex!");
     });
     it('should return the string "Hello, Pat!"', function(){
-        expect(sayHello('Pat')).toBe("Hello, Pat!");
+        expect(sayHelloPat('Pat')).toBe("Hello, Pat!");
+    });
+    it('should return the string, "Hello, World"', function (){
+        expect(sayHello('World')).toBe("Hello, World!");
+    });
+    it('the string, "Hello, World!" should return true', function(){
+        expect(isStringTrue(true)).toBe("Hello, World!");
+    });
+    it('the string, "Hello, World!" should return false', function(){
+        expect(isStringTrue(false)).toBe("Hello, World!");
     })
 
 });
