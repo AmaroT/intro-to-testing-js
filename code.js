@@ -2,13 +2,24 @@
 function helloWorld() {
     return "Hello, World!";
 }
-function sayHello(){
+function emptyString() {
     return "";
 }
-// function sayHello(){
-//     return "Hello, Jane!";
-// }
-// sayHello();
-// function sayHello(){
-//     return "Hello, Alex!";
-// }
+function sayHelloJane() {
+    return "Hello, Jane!";
+}
+
+function sayHello(input) {
+    return "Hello, " + input + "!";
+}
+//if(input === "Alex") {
+//     //     return "Hello, Alex!";
+//     // }else if (input === "Jane") {
+//     //     return "Hello, Jane!";
+//     // }else if (input === "Pat") {
+//     //     return "Hello, Pat!";
+//     // }else {
+//     //     return '';
+//     // }
+
+
