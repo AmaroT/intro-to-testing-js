@@ -37,7 +37,27 @@ function isStringTrue(input){
     if(input === true);
     return "Hello, World!";
 }
-
-
-
-
+function isFive(){
+    return isFive;
+}
+function isFive(input) {
+    if(input === true){
+        return true;
+    }else {
+        return false;
+    }
+}
+function isFive(num){
+    if (num === 5){
+    return true;
+    }else{
+        return false;
+    }
+}
+function isFive(str){
+   if(str === "5"){
+       return false;
+   }else{
+       return true;
+   }
+}
