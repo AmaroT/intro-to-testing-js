@@ -37,6 +37,8 @@ function isStringTrue(input){
     if(input === true);
     return "Hello, World!";
 }
+
+// isFive
 function isFive(){
     return isFive;
 }
@@ -61,3 +63,44 @@ function isFive(str){
        return true;
    }
 }
+//isEven
+function isEven(input){
+    return typeof input === "boolean";
+}
+function isEven(num){
+    if(num == 2){
+        return true;
+    }
+}
+function isEven(num){
+    if(num == -4){
+        return true;
+    }
+}
+function isEven(num){
+    if(num == 3){
+        return false;
+    }
+}
+function isEven(str){
+    return typeof str === false;
+}
+function isEven(str){
+    if(str === '8'){
+        return true;
+    }
+}
+function isEven(Infinity){
+    return Infinity === false;
+}
+function isEven(Boolean){
+    return Boolean === false;
+}
+function isEven(){
+    return false;
+}
+//isVowel
+
+
+
+

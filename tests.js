@@ -29,9 +29,6 @@ describe('sayHello', function() {
     it('should return the string "Hello, Pat!"', function(){
         expect(sayHelloPat('Pat')).toBe("Hello, Pat!");
     });
-    // it('should return the string, "Hello, World"', function (){
-    //     expect(sayHello('World')).toBe("Hello, World!");
-    // });
     it('the string, "Hello, World!" should return true', function(){
         expect(isStringTrue(true)).toBe("Hello, World!");
     });
@@ -67,4 +64,34 @@ describe('isFive', function() {
     it('should return false if 5 is in a string', function(){
         expect(isFive("5")).toBe(false);
     });
+});
+describe('isEven', function(){
+    it('should return boolean',function(){
+        expect(typeof isEven).toBe('function')
+    });
+    it('should return true with the number 2', function(){
+        expect(isEven(2)).toBe(true);
+    });
+    it('should return true with the number negative 4', function(){
+        expect(isEven(-4)).toBe(true);
+    });
+    it('should return false with the number 3', function (){
+        expect(isEven(3)).toBe(false);
+    });
+    it('should return false when called with "banana"', function(){
+        expect(isEven(String('banana'))).toBe(false);
+    });
+    it('should return true when called with "8"', function(){
+        expect(isEven(String("8"))).toBe(true);
+    });
+    it('should return false when called with Infinity', function(){
+        expect(isEven(Infinity)).toBe(false);
+    });
+    it('should return false when boolean is the input',function(){
+        expect(isEven(Boolean)).toBe(false)
+    });
+    it('should return false without passing an argument', function(){
+        expect(isEven()).toBe(false);
+    });
+
 });
