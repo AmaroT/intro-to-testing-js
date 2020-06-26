@@ -99,7 +99,27 @@ function isEven(Boolean){
 function isEven(){
     return false;
 }
-//isVowel
+// isVowel
+function isVowel(input){
+    return typeof input === "boolean";
+}
+function isVowel(str){
+    var Case = str.toUpperCase();
+    if(Case === 'a' || Case === 'e' || Case === 'i' || Case === 'o' || Case === 'u'){
+        return true;
+    }
+}
+function isVowel(input){
+    if(input === true || input === false || input === 4 || input === "y"|| input === "banana" || input === "boolean"){
+        return false;
+    }else{
+        return true;
+    }
+}
+function isVowel(){
+    return false;
+}
+
 
 
 
